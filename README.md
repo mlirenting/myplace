@@ -1,0 +1,2 @@
+# mainpage
+Simple renting website
