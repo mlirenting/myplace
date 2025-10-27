@@ -51,12 +51,14 @@ main {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content:center;
   gap: 1rem;
 }
 .flex-block li {
-      flex: 1;
-    width: 400px;
+    flex: 1;
+    max-width: 250px;
+    min-width: 200px;
     background: turquoise;
     padding: 20px;
     border-radius: 10px;
