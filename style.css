@@ -22,7 +22,6 @@ header {
 }
 
 .container {
-  max-width: 900px;
   margin: 0 auto;
   position: relative;
 }
@@ -35,10 +34,12 @@ nav a {
 }
 
 main {
-  padding: 2rem 0;
+  /*padding: 2rem 0;*/
 }
 .wrap-section, .wrap-nav {
   padding: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .card {
  /* background: var(--card);*/
@@ -46,11 +47,35 @@ main {
   padding: 1.25rem;
   box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
 }
-#home {
-  background: turquoise;
+.flex-block {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:center;
+  gap: 1rem;
 }
+.flex-block li {
+      flex: 1;
+    width: 400px;
+    background: turquoise;
+    padding: 20px;
+    border-radius: 10px;
+    color:black;
+}
+#home {
+  /*background: turquoise;*/
+  background-image: url("phuketSea.jpg");
+  background: #505755;
+  background-image: url(phuketSea.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center;
+  color: white;
+}
+
 #about {
   background: lightgreen;
+ 
 }
 #contact {
   background: lightcoral;
