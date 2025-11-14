@@ -64,6 +64,11 @@ main {
     border-radius: 10px;
     color:black;
 }
+.img-block {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} 
 #home {
   /*background: turquoise;*/
   background-image: url("phuketSea.jpg");
