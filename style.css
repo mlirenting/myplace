@@ -36,6 +36,9 @@ nav a {
 main {
   /*padding: 2rem 0;*/
 }
+.underline{
+  border-bottom: solid turquoise 3px;
+}
 .wrap-section, .wrap-nav {
   padding: 1.25rem;
   max-width: 900px;
