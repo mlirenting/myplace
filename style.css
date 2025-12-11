@@ -57,14 +57,37 @@ main {
   justify-content:center;
   gap: 1rem;
 }
+.text-center{
+    text-align: center;
+    background: turquoise;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
 .flex-block li {
     flex: 1;
     max-width: 400px;
     min-width: 250px;
-    background: turquoise;
+    background: lightgray;
     padding: 20px;
     border-radius: 10px;
     color:black;
+    position:relative;
+}
+.button-link{
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration:none;
+  color:white;
+}
+.button-link:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.airbnb{
+  background: #FF5A5F;
+}
+.booking{
+  background: #003580;
 }
 .img-block {
   width: 100%;
@@ -99,7 +122,15 @@ main {
   bottom: 20px;
   right: 20px;
   bottom: 20px;
-  display: flex;
+  text-align: center;
+}
+#gotop:hover{
+  background: darkviolet;
+  cursor: pointer;
+}
+#gotop i{
+    font-size: 30px;
+    margin-top: 10px;
 }
 .button a{
   color:white;
